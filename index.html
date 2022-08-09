@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thai Foods</title>
+
+    <!-- Css links -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icon Css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+
+</head>
+<body>
+    
+    <header>
+        <div class="navTop">
+            <div class="socialIcons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-line"></i></a>   
+            </div> 
+            <div class="logo">
+                <a href="index.html"><h1>Thai Foods Recipe</h1></a>
+            </div>
+            <div class="search">
+                <form action="#" method="post">
+                    <input type="search" name="search" id="search" class="searchForm" placeholder="search">
+                    <label for="search">
+                        <i class="bi bi-search"></i>
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="hamberger" id="hamberger">
+            <i class="bi bi-list"></i>
+        </div>
+        <div class="navBottom menulinks" id="menulinks">
+            <li><a href="#recipe">Recipe</a></li>
+            <li><a href="#flavoring">Flavoring</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Subscribe</a></li>
+        </div>
+    </header>
+
+    <!-- New Recipe -->
+    <section class="newRecipe">
+        <h2>New Recipe Update</h2>
+        <div class="containerNewRecipe">
+            <div class="contentNewRecipe">
+                <img src="img/padhaprao.jpg" alt="">
+                <h1 class="menuName">Fried Basil</h1>
+            </div>
+            <div class="contentNewRecipe">
+                <img src="img/padpringgang.jpg" alt="">
+                <h1 class="menuName">Fried Red Curry</h1>
+            </div>
+            <div class="contentNewRecipe">
+                <img src="img/padthai.jpg" alt="">
+                <h1 class="menuName">Pad Thai</h1>
+            </div>
+            <div class="contentNewRecipe">
+                <img src="img/tomjeud.jpg" alt="">
+                <h1 class="menuName">Clear Soup</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipe -->
+    <section class="Recipe">
+        <div class="headRecipe">
+            <h1>Fall in love with food.</h1>
+            <h1>It’ll never break your heart.</h1>
+        </div>
+        <h2 id="recipe">RECIPE</h2>
+        <hr>
+        <div class="filterRecipe">
+            <div class="filterFoodStyle">
+                <form action="#">
+                    <label for="style"><h4>Foods Style : </h4></label><br>
+                    <select name="style" id="style">
+                        <option value="All Style">All Style</option>
+                        <option value="Northern Style">Northen Style</option>
+                        <option value="Central Style">Central Style</option>
+                        <option value="Esan Style">Esan Style</option>
+                        <option value="Southern Style">Southern Style</option>
+                    </select>
+                </form>
+            </div>
+            <div class="filterMode">
+                <label for="filter"><i class="bi bi-filter"></i></label>
+                <select name="filter" id="filter">
+                    <option value="A-Z">A-Z</option>
+                    <option value="Random">Random</option>
+                </select>
+            </div>
+        </div>
+        <div class="containerRecipe">
+            <div class="contentRecipe">
+                <img src="img/kao soy.jpg" alt="">
+                <h1>Kao Soy</h1>
+            </div>
+            <div class="contentRecipe">
+                <img src="img/yom gin kai.jpg" alt="">
+                <h1>Yum Gin Kai</h1>
+            </div>
+            <div class="contentRecipe">
+                <img src="img/nam pring aonk.jpg" alt="">
+                <h1>Nam Pring - Aonk</h1>
+            </div>
+            <div class="contentRecipe">
+                <img src="img/green curry.jpg" alt="">
+                <h1>Green Curry</h1>
+            </div>
+            <div class="contentRecipe">
+                <img src="img/tom yum gong.jpeg" alt="">
+                <h1>Tom Yum Goong</h1>
+            </div>
+            <div class="contentRecipe">
+                <img src="img/fired rice.jpg" alt="">
+                <h1>Fired Rice</h1>
+            </div>
+            <div class="contentRecipe">
+                <img src="img/tub wan.jpg" alt="">
+                <h1>Tub Wan</h1>
+            </div>
+            <div class="contentRecipe">
+                <img src="img/lab esan.jpg" alt="">
+                <h1>Lab Esan</h1>
+            </div>
+            <div class="contentRecipe">
+                <img src="img/tom sab.jpg" alt="">
+                <h1>Tom Sab</h1>
+            </div>
+            <div class="contentRecipe">
+                <img src="img/kua kling.jpg" alt="">
+                <h1>Kua Kling</h1>
+            </div>
+            <div class="contentRecipe">
+                <img src="img/gaeng som.jpg" alt="">
+                <h1>Gaeng Som</h1>
+            </div>
+            <div class="contentRecipe">
+                <img src="img/gaeng tai pla.jpg" alt="">
+                <h1>Gaeng Tai Pla</h1>
+            </div>
+        </div>
+    </section>
+    <!-- End Recipe -->
+
+    <!-- Start Flavoring -->
+    <section class="flavoring">
+        <h2 id="flavoring">FLAVORING</h2>
+        <hr>
+        <div class="containerFlav">
+            <div class="contentFlav">
+                <img src="img/chilly.jpg" alt="">
+                <h1>Chilly</h1>
+            </div>
+            <div class="contentFlav">
+                <img src="img/kraffir leaf.jpg" alt="">
+                <h1>Kraffir Leaf</h1>
+            </div>
+            <div class="contentFlav">
+                <img src="img/lemon grass.jpg" alt="">
+                <h1>Lemon Grass</h1>
+            </div>
+            <div class="contentFlav">
+                <img src="img/ginger.jpg" alt="">
+                <h1>Ginger</h1>
+            </div>
+            <div class="contentFlav">
+                <img src="img/shrimp paste.jpg" alt="">
+                <h1>Shrimp Paste</h1>
+            </div>
+            <div class="contentFlav">
+                <img src="img/fish sauce.jpg" alt="">
+                <h1>Fish Sauce</h1>
+            </div>
+        </div>
+    </section>
+    <!-- End Flavoring -->
+
+    <!-- Start Contact -->
+    <section class="contact" id="contact">
+        <div class="containerContact">
+            <div class="social contactSize">
+                <h1>Social</h1>
+                <div class="icon">
+                    <span><i class="bi bi-facebook"></i> Facebook</span>
+                    <span><i class="bi bi-instagram"></i> Instagram</span>
+                    <span><i class="bi bi-line"></i> Line</span>
+                </div>
+            </div>
+            <div class="contactForm contactSize">
+                <h1>Contact</h1>
+                <div class="icon">
+                    <span><i class="bi bi-house-door"></i> Maehongson, Thailand 58000</span>
+                    <span><i class="bi bi-envelope"></i> Workedcoding@gmail.com</span>
+                    <span><i class="bi bi-telephone"></i> (+66) 6564376493</span>
+                </div>
+            </div>
+            <div class="subscribe contactSize">
+                <h1>Newletter</h1>
+                <form action="#">
+                    <input type="email" name="email" id="email" placeholder="Enter your email...">
+                </form>
+                <button>Subscribe</button>
+            </div>
+            <div class="about contactSize">
+                <h1>About</h1>
+                <p class="textAboutme">I'm a <span>newbie</span> programmer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Js links -->
+    <script src="script.js"></script>
+    <!-- Bootstrap Icon Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
