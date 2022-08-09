@@ -427,9 +427,6 @@ section.contact {
     color: #fff;
 }
 
-
-
-
 @media screen and (max-width: 480px) and (orientation: portrait) {
     /* Nav Top Section */
     .navTop {
@@ -447,6 +444,7 @@ section.contact {
     }
     
     .navTop .search {
+        text-align: center;
         order: 3;
     }
 
@@ -546,7 +544,7 @@ section.contact {
     }
 }
 
-@media screen and (max-width: 768px) and (orientation: portrait) {
+@media screen and (min-width: 768px) and (orientation: portrait) {
     /* Nav Top Section */
     .navTop {
         padding: 20px 5%;
